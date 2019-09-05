@@ -16,3 +16,7 @@
 #see_more p a {
   border-width: 3px;
 }
+
+#logo_nav {
+  margin-top: 0;
+}

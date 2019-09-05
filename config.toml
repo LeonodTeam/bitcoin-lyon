@@ -116,10 +116,7 @@ defaultContentLanguage = "fr"
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
-      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
-      <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
-      </p>
+    text = """<p class="hidden-sm hidden-xs">Vous pouvez nous contacter au 0437242338 ou nous retrouver sur <a href="https://leonod.fr">le site de Leonod</a>.</p>
       """
 
 # Enable and disable widgets for the right sidebar
@@ -153,4 +150,4 @@ defaultContentLanguage = "fr"
 [params.recent_posts]
     enable = true
     title = "A propos de nous"
-    subtitle = "Membres et animateurs de communautés locales, nous nous sommes professionnalisés et vendons des services autour de Bitcoin et autres réseaux : la vente de bitcoins et de produits dérivés en fait partie !"
+    subtitle = "Membres et animateurs de communautés locales, nous nous sommes professionnalisés et fournissons des services autour de Bitcoin et autres réseaux : la vente de bitcoins et de produits dérivés en fait partie !"

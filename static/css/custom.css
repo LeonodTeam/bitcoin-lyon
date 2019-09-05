@@ -8,3 +8,11 @@
 .box-simple {
   min-height: 230px;
 }
+
+#see_more p, #see_more a {
+  font-weight: 500;
+}
+
+#see_more p a {
+  border-width: 3px;
+}

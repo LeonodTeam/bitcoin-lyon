@@ -91,7 +91,7 @@ defaultContentLanguage = "fr"
     contact_form_ajax = false
 
     about_us = "<p>Des passionnés près à vous accompagner dans le terrier du lapin blanc...</p>"
-    copyright = "Copyright (c) 2019, Leonod; all rights reserved."
+    copyright = "Copyright (c) 2019 Leonod; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "2 January 2006"
@@ -141,7 +141,7 @@ defaultContentLanguage = "fr"
 
 [params.see_more]
     enable = true
-    icon = ""
+    icon = "fa fa-btc"
     title = "Tenter l'expérience Bitcoin"
     subtitle = "Vous pouvez acheter des bitcoins via notre site, ou à notre point physique"
     link_url = "#"

@@ -153,4 +153,4 @@ defaultContentLanguage = "fr"
 [params.recent_posts]
     enable = true
     title = "A propos de nous"
-    subtitle = "Membres et animateurs de communautés locales, nous nous sommes professionnalisé et vendons des services autour de Bitcoin et autres réseaux : la vente de bitcoins et de produits dérivés en fait partie !"
+    subtitle = "Membres et animateurs de communautés locales, nous nous sommes professionnalisés et vendons des services autour de Bitcoin et autres réseaux : la vente de bitcoins et de produits dérivés en fait partie !"

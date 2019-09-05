@@ -1769,12 +1769,12 @@ fieldset[disabled] .btn-template-primary.active {
   background: #fff;
 }
 .bar.background-image-fixed-1 {
-  background: url('../img/fixed-background-1.jpg') center top no-repeat;
+  background: url('../img/lyon_cover.jpg') center top no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 .bar.background-image-fixed-2 {
-  background: url('../img/fixed-background-2.jpg') center top no-repeat;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/lyon_cover.jpg') center top no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -1785,7 +1785,7 @@ fieldset[disabled] .btn-template-primary.active {
 .bar.color-white h5,
 .bar.color-white h6,
 .bar.color-white p {
-  color: #fff;
+  color: white;
 }
 .bar.padding-big {
   padding: 50px 0;

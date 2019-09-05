@@ -86,7 +86,7 @@ defaultContentLanguage = "fr"
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
     #
-    # Enable the contact form by entering your Formspree.io email
+    # Enable the contact form by entering your Formspree.io email
     email = "your@email.com"
     contact_form_ajax = false
 
@@ -134,7 +134,7 @@ defaultContentLanguage = "fr"
 
 [params.features]
     enable = true
-	# cf 'data/features/*'
+    # cf 'data/features/*'
 
 [params.testimonials]
     enable = false
@@ -153,4 +153,4 @@ defaultContentLanguage = "fr"
 [params.recent_posts]
     enable = true
     title = "A propos de nous"
-    subtitle = "Membres et animateurs de communautés locales, nous nous sommes professionnalisé et vendons des services autour de Bitcoin et autres réseaux : la vente de bitcoins et de goodies en fait partie !"
+    subtitle = "Membres et animateurs de communautés locales, nous nous sommes professionnalisé et vendons des services autour de Bitcoin et autres réseaux : la vente de bitcoins et de produits dérivés en fait partie !"

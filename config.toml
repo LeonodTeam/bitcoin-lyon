@@ -97,7 +97,7 @@ watch = true
     email = "your@email.com"
     contact_form_ajax = false
 
-    about_us = "Nous vendons des services aux entreprises sur <a href=\"https://leonod.fr\">Leonod.fr</a> (développement, consulting) et des services aux particuliers sur <a href=\"www.bitcoin-lyon.fr\">Bitcoin-lyon</a>. Nous sommes également membres de la communauté lyonnaise <a href=\"https://crypto-lyon.fr\">Crypto Lyon</a>"
+    about_us = "Retrouvez nous sur <a href=\"https://leonod.fr\">Leonod.fr</a><br/>Retrouvez une communauté locale dévouée sur <a href=\"https://crypto-lyon.fr\">Crypto Lyon.fr</a>"
     copyright = "Copyright (c) 2019 <a href=\"https://leonod.fr\">Leonod</a>; all rights reserved."
 
     # Format dates with Go's time formatting
@@ -149,4 +149,4 @@ watch = true
 [params.recent_posts]
     enable = true
     title = "A propos de nous"
-    subtitle = "Membres et animateurs de communautés locales, nous nous sommes professionnalisés et fournissons des services autour de Bitcoin et autres réseaux : la vente de bitcoins et de produits dérivés en fait partie !"
+    subtitle = """Membres et animateurs de communautés locales, nous nous sommes professionnalisés et fournissons des services aux entreprises sur <a href=\"https://leonod.fr\">Leonod.fr</a> (développement, consulting) et des services aux particuliers sur <a href=\"www.bitcoin-lyon.fr\">Bitcoin-lyon</a> (vente de bitcoins et de produits dérivés). Nous sommes également membres de la communauté lyonnaise <a href=\"https://crypto-lyon.fr\">Crypto Lyon</a>."""

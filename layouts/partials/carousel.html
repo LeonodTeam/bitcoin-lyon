@@ -9,13 +9,17 @@
                 {{ range sort .Site.Data.carousel "weight" }}
                 <div class="item">
                     <div class="row">
+                      {{ if not (eq (mod .weight 2) 0) }}
                         <div class="col-sm-5 right">
                             <h1>{{ .title }}</h1>
                             {{ .description | safeHTML }}
                         </div>
-                        <div class="col-sm-7">
-                            <img class="img-responsive" src="{{ .image }}" alt="">
+                      {{ else }}
+                        <div class="col-sm-5 col-sm-offset-7">
+                            <h1>{{ .title }}</h1>
+                            {{ .description | safeHTML }}
                         </div>
+                      {{ end }}
                     </div>
                 </div>
                 {{ end }}

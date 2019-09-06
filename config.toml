@@ -1,15 +1,16 @@
-baseURL = "http://bitcoin-lyon.fr/"
-languageCode = "en-fr"
+baseURL = "http://www.bitcoin-lyon.fr/"
+languageCode = "fr"
 title = "Bitcoin à Lyon"
-theme = "hugo-universal-theme"
 defaultContentLanguage = "fr"
+enableEmoji = true
+watch = true
 
 [menu]
 
 # Main menu
 
 [[menu.main]]
-    identifier="home"
+    identifier="index"
     name = "Accueil"
     url  = "/"
     weight = 1
@@ -21,16 +22,22 @@ defaultContentLanguage = "fr"
     weight = 2
 
 [[menu.main]]
-    identifier = "products"
-    name = "Achat de bitcoins et goodies"
-    url  = "/produits/"
+    identifier = "buy"
+    name = "Achat de bitcoins"
+    url  = "/achat/"
     weight = 3
+
+[[menu.main]]
+    identifier = "shop"
+    name = "Boutique"
+    url  = "/boutique/"
+    weight = 4
 
 [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url  = "/contact/"
-    weight = 4
+    weight = 5
 
 # Top bar social links menu
 
@@ -90,25 +97,17 @@ defaultContentLanguage = "fr"
     email = "your@email.com"
     contact_form_ajax = false
 
-    about_us = "<p>Des passionnés près à vous accompagner dans le terrier du lapin blanc...</p>"
-    copyright = "Copyright (c) 2019 Leonod; all rights reserved."
+    about_us = "Nous vendons des services aux entreprises sur <a href=\"https://leonod.fr\">Leonod.fr</a> (développement, consulting) et des services aux particuliers sur <a href=\"www.bitcoin-lyon.fr\">Bitcoin-lyon</a>. Nous sommes également membres de la communauté lyonnaise <a href=\"https://crypto-lyon.fr\">Crypto Lyon</a>"
+    copyright = "Copyright (c) 2019 <a href=\"https://leonod.fr\">Leonod</a>; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "2 January 2006"
 
     logo = "img/logo.png"
-    logo_small = "img/logo-small.png"
-    address = """<p><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
-        <br>
-        <strong>Great Britain</strong>
-      </p>
-      """
-    latitude = "-12.043333"
-    longitude = "-77.028333"
+    logo_small = "img/logo.png"
+    address = "15 Place Jules Ferry, 69006 Lyon"
+    latitude = "45.7682109"
+    longitude = "4.8596369"
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
@@ -121,9 +120,9 @@ defaultContentLanguage = "fr"
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
-    categories = true
-    tags = true
-    search = true
+    categories = false
+    tags = false
+    search = false
 
 [params.carousel]
     enable = true

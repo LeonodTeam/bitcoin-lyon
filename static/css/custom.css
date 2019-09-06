@@ -20,3 +20,13 @@
 #logo_nav {
   margin-top: 0;
 }
+
+#footer_custom {
+  text-align: center;
+  vertical-align: top;
+}
+
+#footer_about_us {
+  display: inline-block;
+  width: 30%;
+}

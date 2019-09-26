@@ -1,4 +1,4 @@
-baseURL = "http://www.bitcoin-lyon.fr/"
+baseURL = "https://www.bitcoin-lyon.fr/"
 languageCode = "fr"
 title = "Bitcoin à Lyon"
 defaultContentLanguage = "fr"

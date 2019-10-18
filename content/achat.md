@@ -2,7 +2,7 @@
 # Acheter du bitcoin, rapidement et simplement <img src="http://localhost:1313/img/logo-cb-carte-bancaire.jpg" width="50">
 ***
 
-<div class="row">
+<div class="row" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding: 5%">
 
   <div class="col-md-6" style="text-align: center">
 
@@ -41,11 +41,11 @@ alt="IMAGE ALT TEXT HERE" width="300" style="text-align: center; border-radius: 
 
 ***
 
-<div class="row">
+<div class="row" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding: 5%">
 
   <div class="col-md-6" style="text-align: center">
 
-  <img src="http://localhost:1313/img/img_guichet2.jpg" 
+  <img src="http://localhost:1313/img/img_guichet2.png" 
 alt="IMAGE ALT TEXT HERE" width="300" style="text-align: center; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"/>
     </div>
 

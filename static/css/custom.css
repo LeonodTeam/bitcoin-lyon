@@ -30,3 +30,12 @@
   display: inline-block;
   width: 30%;
 }
+
+.col-md-4 > p {
+  font-weight: 700;
+}
+
+.col-md-8 > p {
+  font-weight: 600;
+  font-size: 110%;
+}

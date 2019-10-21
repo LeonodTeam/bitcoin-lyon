@@ -4,6 +4,7 @@ title = "Bitcoin à Lyon"
 defaultContentLanguage = "fr"
 enableEmoji = true
 watch = true
+googleAnalytics = "UA-119123824-1"
 
 [menu]
 
